@@ -1,13 +1,17 @@
 <template>
   <div id="app">
     <router-view/>
-    <h1>hellow1</h1>
+    <!-- <headed></headed> -->
   </div>
 </template>
 
 <script>
+// import Headed from './components/Headed'
 export default {
-  name: 'app'
+  name: 'app',
+  components:{
+    // Headed
+  }
 }
 </script>
 
