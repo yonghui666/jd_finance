@@ -19,7 +19,7 @@ export default {
     return{
       navlist:[
         {title:'首页', href:'/nowrite', icon:'https://img12.360buyimg.com/jrpmobile/jfs/t1/931/18/14488/935/5bda58fdE542c2cc7/f29a349a4ed750ca.png?width=60&height=60'},
-        {title:'李白', href:'/nowrite', icon:'https://img12.360buyimg.com/jrpmobile/jfs/t1/931/18/14488/935/5bda58fdE542c2cc7/f29a349a4ed750ca.png?width=60&height=60'},
+        {title:'赚钱', href:'/zhuanqian', icon:'https://img12.360buyimg.com/jrpmobile/jfs/t1/931/18/14488/935/5bda58fdE542c2cc7/f29a349a4ed750ca.png?width=60&height=60'},
         {title:'白条', href:'/nowrite', icon:'https://img12.360buyimg.com/jrpmobile/jfs/t1/931/18/14488/935/5bda58fdE542c2cc7/f29a349a4ed750ca.png?width=60&height=60'},
         {title:'众筹', href:'/nowrite', icon:'https://img12.360buyimg.com/jrpmobile/jfs/t1/931/18/14488/935/5bda58fdE542c2cc7/f29a349a4ed750ca.png?width=60&height=60'},
         {title:'我的', href:'/nowrite', icon:'https://img12.360buyimg.com/jrpmobile/jfs/t1/931/18/14488/935/5bda58fdE542c2cc7/f29a349a4ed750ca.png?width=60&height=60'},

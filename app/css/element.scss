@@ -29,5 +29,30 @@
     text-align: center;
     color: $color
   }
-  
+}
+
+@mixin zpanel($bgcolor:#fff,$padding:0,$margin:20px 0 0 0,$height:112px,$txtPadding:0 32px,$color:#333,$fontSize:32px){
+  background-color: $bgcolor;
+  padding: $padding;
+  margin: $margin;
+  .head{
+    @include list(row);
+    justify-content: space-between;
+    padding: 30px;
+    width: 100%;
+    box-sizing: border-box;
+    >h4{
+      color: black; font-weight: bolder;
+      font-size: 33px;
+    }
+    >p{
+      font-size: 23px;
+      color: gray;
+    }
+
+  }
+  .zpanel_img{
+    width: 100%;
+    img{width: 100%; margin: 20px 0;}
+  }
 }

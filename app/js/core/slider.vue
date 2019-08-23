@@ -8,7 +8,6 @@
       </swiper-slide>
       <div class="swiper-pagination"  slot="pagination" v-if="options.pagination"></div>
     </swiper>
-
   </section>
 </template>
 

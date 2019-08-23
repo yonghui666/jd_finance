@@ -29,7 +29,4 @@ export default {
 
 <style lang="scss" module>
   @import '../../css/reset.scss';
-  .home{
-    color: red;
-  }
 </style>
